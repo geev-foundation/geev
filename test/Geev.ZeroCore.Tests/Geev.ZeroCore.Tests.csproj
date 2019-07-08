@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>Geev</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Zero\Localization\Geev.json" />
+    <None Remove="Zero\Localization\Sources\Base\GeevZero\GeevZero.json" />
+    <None Remove="Zero\Localization\Sources\Extensions\Json\GeevZero\GeevZero.json" />
+    <None Remove="Zero\Localization\Sources\Extensions\Xml\Geev.json" />
+    <None Remove="Zero\Localization\Sources\Extensions\Xml\Geev.xml" />
+    <None Remove="Zero\Localization\Sources\Extensions\Xml\GeevZero\GeevZero.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Zero\Localization\Sources\Base\GeevZero\GeevZero.json" />
+    <EmbeddedResource Include="Zero\Localization\Sources\Base\Geev\Geev.json" />
+    <EmbeddedResource Include="Zero\Localization\Sources\Extensions\Json\GeevZero\GeevZero.json" />
+    <EmbeddedResource Include="Zero\Localization\Sources\Extensions\Xml\GeevZero\GeevZero.xml" />
+    <EmbeddedResource Include="Zero\Localization\Sources\Extensions\Xml\Geev\Geev.xml" />
+    <EmbeddedResource Include="Zero\Localization\Sources\Extensions\Json\Geev\Geev.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Geev.EntityFrameworkCore.EFPlus\Geev.EntityFrameworkCore.EFPlus.csproj" />
+    <ProjectReference Include="..\..\src\Geev.TestBase\Geev.TestBase.csproj" />
+    <ProjectReference Include="..\Geev.ZeroCore.SampleApp\Geev.ZeroCore.SampleApp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="2.2.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.extensibility.execution" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Shouldly" Version="3.0.2" />
+    <PackageReference Include="NSubstitute" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <Version>4.5.0</Version>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageProjectUrl>https://github.com/geev-foundation/</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/geev-foundation/geev/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/geev-foundation/geev</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release' ">
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="SourceLink.Create.CommandLine" Version="2.8.1" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

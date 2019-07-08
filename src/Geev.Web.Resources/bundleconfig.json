@@ -1,0 +1,80 @@
+[
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/angularjs/geev.ng.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/angularjs/geev.ng.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/requirejs/plugins/service.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/requirejs/plugins/service.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/geev.blockUI.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/geev.blockUI.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/geev.jquery.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/geev.jquery.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/geev.jtable.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/geev.jtable.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/geev.moment.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/geev.moment.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/geev.signalr.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/geev.signalr.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/geev.signalr-client.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/geev.signalr-client.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/geev.spin.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/geev.spin.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/geev.sweet-alert.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/geev.sweet-alert.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/libs/geev.toastr.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/libs/geev.toastr.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/utils/ie10fix.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/utils/ie10fix.js"
+    ]
+  },
+  {
+    "outputFileName": "Geev/Framework/scripts/geev.min.js",
+    "inputFiles": [
+      "Geev/Framework/scripts/geev.js"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+﻿@import "geev.mixings.less";
+
+// COMMON STYLES //////////////////////////////////////////////////////////////
+
+.geev-clickable {
+    cursor: pointer;
+}
+
+// Docking
+
+.geev-dock-top {
+    .geev-dock(top);
+}
+
+.geev-dock-right {
+    .geev-dock(right);
+}
+
+.geev-dock-bottom {
+    .geev-dock(bottom);
+}
+
+.geev-dock-left {
+    .geev-dock(left);
+}
+
+//Busy indicator
+
+.geev-busy-indicator {
+
+}
+
+.geev-busy-indicator-small {
+    width: 36px;
+    height: 36px;
+
+    &.geev-dock-left, 
+    &.geev-dock-right {
+        height: auto;
+    }
+}
