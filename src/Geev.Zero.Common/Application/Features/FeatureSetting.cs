@@ -9,7 +9,7 @@ namespace Geev.Application.Features
     /// <summary>
     /// Base class for feature settings
     /// </summary>
-    [Table("GeevFeatures")]
+    [Table("Features")]
     [MultiTenancySide(MultiTenancySides.Host)]
     public abstract class FeatureSetting : CreationAuditedEntity<long>, IMayHaveTenant
     {

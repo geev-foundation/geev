@@ -11,7 +11,7 @@ namespace Geev.Authorization.Roles
     /// <summary>
     /// Base class for role.
     /// </summary>
-    [Table("GeevRoles")]
+    [Table("Roles")]
     public abstract class GeevRoleBase : FullAuditedEntity<int>, IMayHaveTenant
     {
         /// <summary>

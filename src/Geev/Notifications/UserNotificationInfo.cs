@@ -11,7 +11,7 @@ namespace Geev.Notifications
     /// Used to store a user notification.
     /// </summary>
     [Serializable]
-    [Table("GeevUserNotifications")]
+    [Table("UserNotifications")]
     public class UserNotificationInfo : Entity<Guid>, IHasCreationTime, IMayHaveTenant
     {
         /// <summary>

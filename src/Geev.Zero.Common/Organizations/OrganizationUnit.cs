@@ -13,7 +13,7 @@ namespace Geev.Organizations
     /// <summary>
     /// Represents an organization unit (OU).
     /// </summary>
-    [Table("GeevOrganizationUnits")]
+    [Table("OrganizationUnits")]
     public class OrganizationUnit : FullAuditedEntity<long>, IMayHaveTenant
     {
         /// <summary>

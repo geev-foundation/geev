@@ -11,7 +11,7 @@ namespace Geev.Notifications
     /// This notification is distributed to tenants and users by <see cref="INotificationDistributer"/>.
     /// </summary>
     [Serializable]
-    [Table("GeevNotifications")]
+    [Table("Notifications")]
     [MultiTenancySide(MultiTenancySides.Host)]
     public class NotificationInfo : CreationAuditedEntity<Guid>
     {

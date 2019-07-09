@@ -7,7 +7,7 @@ namespace Geev.Organizations
     /// <summary>
     /// Represents membership of a User to an OU.
     /// </summary>
-    [Table("GeevOrganizationUnitRoles")]
+    [Table("OrganizationUnitRoles")]
     public class OrganizationUnitRole : CreationAuditedEntity<long>, IMayHaveTenant
     {
         /// <summary>

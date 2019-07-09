@@ -12,7 +12,7 @@ namespace Geev.MultiTenancy
         /// <summary>
         /// The cache store name.
         /// </summary>
-        public const string CacheStoreName = "GeevZeroTenantFeatures";
+        public const string CacheStoreName = "TenantFeatures";
 
         /// <summary>
         /// Edition of the tenant.

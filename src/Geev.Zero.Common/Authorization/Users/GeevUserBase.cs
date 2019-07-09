@@ -12,7 +12,7 @@ namespace Geev.Authorization.Users
     /// <summary>
     /// Base class for user.
     /// </summary>
-    [Table("GeevUsers")]
+    [Table("Users")]
     public abstract class GeevUserBase : FullAuditedEntity<long>, IMayHaveTenant, IPassivable
     {
         /// <summary>

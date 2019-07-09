@@ -9,7 +9,7 @@ namespace Geev.Authorization.Users
     /// <summary>
     /// Represents a summary user
     /// </summary>
-    [Table("GeevUserAccounts")]
+    [Table("UserAccounts")]
     [MultiTenancySide(MultiTenancySides.Host)]
     public class UserAccount : FullAuditedEntity<long>
     {

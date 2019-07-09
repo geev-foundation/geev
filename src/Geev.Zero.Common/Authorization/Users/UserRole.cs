@@ -7,7 +7,7 @@ namespace Geev.Authorization.Users
     /// <summary>
     /// Represents role record of a user. 
     /// </summary>
-    [Table("GeevUserRoles")]
+    [Table("UserRoles")]
     public class UserRole : CreationAuditedEntity<long>, IMayHaveTenant
     {
         public virtual int? TenantId { get; set; }

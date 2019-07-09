@@ -8,7 +8,7 @@ namespace Geev.Authorization.Users
     /// <summary>
     /// Represents membership of a User to an OU.
     /// </summary>
-    [Table("GeevUserOrganizationUnits")]
+    [Table("UserOrganizationUnits")]
     public class UserOrganizationUnit : CreationAuditedEntity<long>, IMayHaveTenant, ISoftDelete
     {
         /// <summary>

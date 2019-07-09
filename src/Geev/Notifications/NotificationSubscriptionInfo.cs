@@ -10,7 +10,7 @@ namespace Geev.Notifications
     /// <summary>
     /// Used to store a notification subscription.
     /// </summary>
-    [Table("GeevNotificationSubscriptions")]
+    [Table("NotificationSubscriptions")]
     public class NotificationSubscriptionInfo : CreationAuditedEntity<Guid>, IMayHaveTenant
     {
         /// <summary>

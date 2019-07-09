@@ -24,7 +24,7 @@ namespace Geev.Localization
         /// <summary>
         /// Cache name for languages.
         /// </summary>
-        public const string CacheName = "GeevZeroLanguages";
+        public const string CacheName = "Languages";
 
         private ITypedCache<int, Dictionary<string, ApplicationLanguage>> LanguageListCache => _cacheManager.GetCache<int, Dictionary<string, ApplicationLanguage>>(CacheName);
 

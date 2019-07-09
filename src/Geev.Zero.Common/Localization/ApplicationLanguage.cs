@@ -10,7 +10,7 @@ namespace Geev.Localization
     /// Represents a language of the application.
     /// </summary>
     [Serializable]
-    [Table("GeevLanguages")]
+    [Table("Languages")]
     public class ApplicationLanguage : FullAuditedEntity, IMayHaveTenant
     {
         /// <summary>

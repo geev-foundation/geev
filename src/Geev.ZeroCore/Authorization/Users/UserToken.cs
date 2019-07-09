@@ -9,7 +9,7 @@ namespace Geev.Authorization.Users
     /// <summary>
     /// Represents an authentication token for a user.
     /// </summary>
-    [Table("GeevUserTokens")]
+    [Table("UserTokens")]
     public class UserToken : Entity<long>, IMayHaveTenant
     {
         /// <summary>

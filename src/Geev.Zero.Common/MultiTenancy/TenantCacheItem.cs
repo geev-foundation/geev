@@ -5,9 +5,9 @@ namespace Geev.MultiTenancy
     [Serializable]
     public class TenantCacheItem
     {
-        public const string CacheName = "GeevZeroTenantCache";
+        public const string CacheName = "TenantCache";
 
-        public const string ByNameCacheName = "GeevZeroTenantByNameCache";
+        public const string ByNameCacheName = "TenantByNameCache";
 
         public int Id { get; set; }
 

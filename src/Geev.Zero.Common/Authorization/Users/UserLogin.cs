@@ -7,7 +7,7 @@ namespace Geev.Authorization.Users
     /// <summary>
     /// Used to store a User Login for external Login services.
     /// </summary>
-    [Table("GeevUserLogins")]
+    [Table("UserLogins")]
     public class UserLogin : Entity<long>, IMayHaveTenant
     {
         /// <summary>

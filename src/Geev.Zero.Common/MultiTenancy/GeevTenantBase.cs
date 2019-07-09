@@ -9,7 +9,7 @@ namespace Geev.MultiTenancy
     /// <summary>
     /// Base class for tenants.
     /// </summary>
-    [Table("GeevTenants")]
+    [Table("Tenants")]
     [MultiTenancySide(MultiTenancySides.Host)]
     public abstract class GeevTenantBase : FullAuditedEntity<int>, IPassivable
     {

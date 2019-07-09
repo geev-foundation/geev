@@ -11,7 +11,7 @@ namespace Geev.Auditing
     /// <summary>
     /// Used to store audit logs.
     /// </summary>
-    [Table("GeevAuditLogs")]
+    [Table("AuditLogs")]
     public class AuditLog : Entity<long>, IMayHaveTenant
     {
         /// <summary>

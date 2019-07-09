@@ -11,7 +11,7 @@ namespace Geev.Authorization.Users
     /// <summary>
     /// Used to save a login attempt of a user.
     /// </summary>
-    [Table("GeevUserLoginAttempts")]
+    [Table("UserLoginAttempts")]
     public class UserLoginAttempt : Entity<long>, IHasCreationTime, IMayHaveTenant
     {
         /// <summary>

@@ -9,7 +9,7 @@ namespace Geev.Authorization.Users
     [Serializable]
     public class UserPermissionCacheItem
     {
-        public const string CacheStoreName = "GeevZeroUserPermissions";
+        public const string CacheStoreName = "UserPermissions";
 
         public long UserId { get; set; }
 

@@ -8,7 +8,7 @@ namespace Geev.Configuration
     /// <summary>
     /// Represents a setting for a tenant or user.
     /// </summary>
-    [Table("GeevSettings")]
+    [Table("Settings")]
     public class Setting : AuditedEntity<long>, IMayHaveTenant
     {
         /// <summary>

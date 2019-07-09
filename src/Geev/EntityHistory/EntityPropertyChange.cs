@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Geev.EntityHistory
 {
-    [Table("GeevEntityPropertyChanges")]
+    [Table("EntityPropertyChanges")]
     public class EntityPropertyChange : Entity<long>, IMayHaveTenant
     {
         /// <summary>

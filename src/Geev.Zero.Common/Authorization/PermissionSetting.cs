@@ -8,7 +8,7 @@ namespace Geev.Authorization
     /// <summary>
     /// Used to grant/deny a permission for a role or user.
     /// </summary>
-    [Table("GeevPermissions")]
+    [Table("Permissions")]
     public abstract class PermissionSetting : CreationAuditedEntity<long>, IMayHaveTenant
     {
         /// <summary>

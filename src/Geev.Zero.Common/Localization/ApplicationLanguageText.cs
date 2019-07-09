@@ -10,7 +10,7 @@ namespace Geev.Localization
     /// Used to store a localization text.
     /// </summary>
     [Serializable]
-    [Table("GeevLanguageTexts")]
+    [Table("LanguageTexts")]
     public class ApplicationLanguageText : AuditedEntity<long>, IMayHaveTenant
     {
         public const int MaxSourceNameLength = 128;

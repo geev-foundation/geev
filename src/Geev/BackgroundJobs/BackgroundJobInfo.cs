@@ -10,7 +10,7 @@ namespace Geev.BackgroundJobs
     /// <summary>
     /// Represents a background job info that is used to persist jobs.
     /// </summary>
-    [Table("GeevBackgroundJobs")]
+    [Table("BackgroundJobs")]
     [MultiTenancySide(MultiTenancySides.Host)]
     public class BackgroundJobInfo : CreationAuditedEntity<long>
     {

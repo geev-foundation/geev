@@ -9,7 +9,7 @@ namespace Geev.Authorization.Roles
     [Serializable]
     public class RolePermissionCacheItem
     {
-        public const string CacheStoreName = "GeevZeroRolePermissions";
+        public const string CacheStoreName = "RolePermissions";
 
         public long RoleId { get; set; }
 

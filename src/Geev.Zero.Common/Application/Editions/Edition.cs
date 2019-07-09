@@ -9,7 +9,7 @@ namespace Geev.Application.Editions
     /// <summary>
     /// Represents an edition of the application.
     /// </summary>
-    [Table("GeevEditions")]
+    [Table("Editions")]
     [MultiTenancySide(MultiTenancySides.Host)]
     public class Edition : FullAuditedEntity
     {

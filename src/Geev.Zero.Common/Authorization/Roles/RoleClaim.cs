@@ -6,7 +6,7 @@ using Geev.Domain.Entities.Auditing;
 
 namespace Geev.Authorization.Roles
 {
-    [Table("GeevRoleClaims")]
+    [Table("RoleClaims")]
     public class RoleClaim : CreationAuditedEntity<long>, IMayHaveTenant
     {
         /// <summary>

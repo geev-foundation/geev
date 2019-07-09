@@ -4,7 +4,7 @@ using Geev.Domain.Entities;
 
 namespace Geev.IdentityServer4
 {
-    [Table("GeevPersistedGrants")]
+    [Table("PersistedGrants")]
     public class PersistedGrantEntity : Entity<string>
     {
         public virtual string Type { get; set; }

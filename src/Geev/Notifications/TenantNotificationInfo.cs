@@ -9,7 +9,7 @@ namespace Geev.Notifications
     /// <summary>
     /// A notification distributed to it's related tenant.
     /// </summary>
-    [Table("GeevTenantNotifications")]
+    [Table("TenantNotifications")]
     public class TenantNotificationInfo : CreationAuditedEntity<Guid>, IMayHaveTenant
     {
         /// <summary>
